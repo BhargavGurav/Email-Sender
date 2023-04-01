@@ -9,11 +9,13 @@
 <h3>For security purpose I have not pushed settings.py file in project but I will tell you changes to be made at the end of the file (no change in default content) </h3>
 <p>Add these lines at the end </p>
 <hr>
+<pre>
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = #sender's email-id
 EMAIL_HOST_PASSWORD = #password associated with above email-id
+<pre>
 <hr>
 <p>Hope you like it. Thank you.</p>
